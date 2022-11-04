@@ -1,4 +1,4 @@
-import { createTheme } from '@mui/material';
+import { Box, createTheme } from '@mui/material';
 import { cyan, yellow } from '@mui/material/colors';
 
 export const LightTheme = createTheme({
@@ -19,5 +19,9 @@ export const LightTheme = createTheme({
             paper: '#f7f6f3',
             default: '#ffffff' ,
         }
-    }
+    },
+    shape: {
+        borderRadius: 5,
+    },   
+
 })
